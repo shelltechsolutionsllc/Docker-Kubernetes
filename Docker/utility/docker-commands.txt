@@ -1,0 +1,8 @@
+Without Entry Point
+docker run -it -v "/Users/paulomonisitconsulting/Documents/Code/Courses/Docker + Kubernetes/utility":/app node-util npm init
+
+With Entry Point
+docker run -it -v "/Users/paulomonisitconsulting/Documents/Code/Courses/Docker + Kubernetes/utility":/app node-util init
+
+Using compose
+docker-compose run npm init
